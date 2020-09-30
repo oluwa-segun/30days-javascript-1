@@ -15,7 +15,33 @@ kbd{
  transform: scale(1.1);
   
 }
+input{
 
+  position: relative;
+
+  border: none;
+
+  height: 40px;
+
+  width: 40vw;
+
+left: 30vw;
+
+right: 30vw;
+
+border-radius: 12px;
+
+  background: rgba(255, 255, 255, 0.349);
+
+}
+
+input::placeholder{
+
+  color: white;
+
+  padding: 10px;
+
+}
 .keys{
   display: grid;
   width: 80vw;
